@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .title {
+    color: var(--color-action);
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

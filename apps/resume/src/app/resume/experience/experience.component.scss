@@ -1,0 +1,46 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 16px;
+
+  h3 {
+    color: var(--color-action);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .position {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h4 {
+      color: var(--color-gray);
+
+      font-size: 12px;
+      line-height: 16px;
+
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--color-gray);
+    }
+  }
+
+  .time-frame {
+    display: inline;
+    font-size: 12px;
+    color: var(--color-gray);
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,19 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  h3 {
+    color: #3d3d3d;
+
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--text--light--body);
+  }
+}

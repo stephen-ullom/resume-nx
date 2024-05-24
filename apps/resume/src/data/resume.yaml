@@ -1,0 +1,42 @@
+introduction: >
+  Introduction message here.
+
+skills:
+  - category: Core Technologies
+    items: [TypeScript, JavaScript, React, Node, Angular, SQL, HTML, SCSS/CSS]
+
+  - category: Professional Skills
+    items: [Leadership, Innovation, Creativity, Communication, Agile]
+
+experience:
+  - company: Company name
+    positions:
+      - title: Developer
+        start_date: March 2020
+        end_date: Present
+        description:
+          - Project description here.
+
+  - company: Company name
+    positions:
+      - title: Developer
+        start_date: March 2020
+        end_date: March 2020
+        description:
+          - Project description here.
+
+volunteering:
+  - company: Company name
+    positions:
+      - title: Developer
+        start_date: March 2020
+        end_date: March 2020
+        description:
+          - Project description here.
+
+projects:
+  - title: Extra project
+    start_date: March 2020
+    end_date: Present
+    description:
+      - Project description here.

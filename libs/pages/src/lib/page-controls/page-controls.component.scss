@@ -1,0 +1,51 @@
+.page-controls {
+  position: fixed;
+
+  top: 32px;
+  right: 32px;
+
+  display: flex;
+
+  border-radius: 8px;
+  box-shadow: 0.1in 0.1in 0.25in rgba(0, 0, 0, 0.25);
+
+  .divider {
+    width: 1px;
+    background-color: black;
+  }
+
+  .print-button,
+  .page-link {
+    background-color: #444;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: white;
+    padding: 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+
+    &:hover {
+      background-color: aquamarine;
+      color: black;
+    }
+  }
+
+  .print-button {
+    border: none;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .page-link {
+    text-decoration: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  @media print {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-VariableFont.ttf) format('truetype');
+}
+
+:root {
+  --font-heading: Arial;
+  --font-body: Montserrat;
+
+  --weight-heading: 700;
+  --weight-body: 400;
+
+  --color-black: #000000;
+  --color-gray: #1d1d1d;
+  --color-light-gray: #f6f6f6;
+  --color-white: #ffffff;
+  --color-action: #ff8900;
+}
